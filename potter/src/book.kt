@@ -16,7 +16,7 @@ fun price(booklist:Array<Int>):Double{
 
 fun main(args: Array<String>): Unit {
     testBasics()
-    testSeveralDiscounts()
+    testSimpleDiscounts()
     testEdgeCases()
     testSeveralDiscounts()
 }
