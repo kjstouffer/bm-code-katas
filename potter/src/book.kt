@@ -2,7 +2,6 @@ fun price(booklist:Array<Int>):Double{
     var books = booklist.toList()
 //    println("Testing: $books")
 
-    //organize sets
     var bookSetCollection:BookSetCollection = BookSetCollection()
     bookSetCollection.addAllBooksToSets(books)
 //    for(bookSet:BookSet in bookSetCollection.bookSets){
