@@ -1,12 +1,3 @@
-
-val setPrices = mapOf(
-        Pair(1,8),
-        Pair(2,8*.95),
-        Pair(3,8*.90),
-        Pair(4,8*.80),
-        Pair(5,8*.75)
-)
-
 fun price(booklist:Array<Int>):Double{
     var books = booklist.toList()
 //    println("Testing: $books")
